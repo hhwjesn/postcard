@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1080px;
+}
+
+body {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background-color: #c9f9ff;
+  cursor: url(../images/shapka3.svg), auto;
+}
+
+p {
+  font-family: "Furnitur";
+  font-size: 70px;
+}
+
+#words {
+  display: flex;
+}
+
+.firstText,
+.secondText {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* буквы */
+.one {
+  color: #d80000;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 2.14vw;
+  top: 5.49vw;
+}
+.two {
+  color: #ffbb00;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 2.14vw;
+  top: 10.83vw;
+}
+.three {
+  color: #0f13ff;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 5.24vw;
+  top: 10.83vw;
+}
+.four {
+  color: #eca1ff;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 8.34vw;
+  top: 10.83vw;
+}
+.five {
+  color: #40c000;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 11.44vw;
+  top: 10.83vw;
+}
+.six {
+  color: #8b37ff;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 14.54vw;
+  top: 10.83vw;
+}
+.seven {
+  color: #d80000;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 36vw;
+  top: 10.83vw;
+}
+.eight {
+  color: #eca1ff;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 39.1vw;
+  top: 10.83vw;
+}
+.nine {
+  color: #ffbb00;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 42.2vw;
+  top: 10.83vw;
+}
+.ten {
+  color: #0f13ff;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 45.3vw;
+  top: 10.83vw;
+}
+.eleven {
+  color: #40c000;
+  width: 3.5vw;
+  height: 3vw;
+  position: absolute;
+  left: 48.4vw;
+  top: 10.83vw;
+}
+
+/* елка */
+
+.elka1 {
+  width: 19vw;
+  height: 29vw;
+  position: absolute;
+  top: 2%;
+  left: 24%;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/elka22.png);
+  background-size: 19vw 29vw;
+}
+.elka1:hover {
+  background-image: url(../images/elka11.png);
+}
+
+.sign1 {
+  width: 8vw;
+  height: 5.5vw;
+  position: absolute;
+  left: 39.6vw;
+  top: 16vw;
+  background-image: url(../images/sign.png);
+  background-size: 8vw 5.5vw;
+  animation: blink 0.8s step-end infinite;
+}
+
+.sign2 {
+  width: 8vw;
+  height: 5.5vw;
+  position: absolute;
+  left: 4.6vw;
+  top: 16vw;
+  background-image: url(../images/sign.png);
+  background-size: 8vw 5.5vw;
+  animation: blink 0.8s step-end infinite;
+}
+
+.snow1 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -webkit-animation: snowMove linear infinite;
+  animation: snowMove 10s linear infinite;
+}
+.snow2 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 12s linear infinite;
+}
+.snow3 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 300px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 10s linear infinite;
+  animation-delay: 2s;
+}
+.snow4 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -100px;
+  left: 380px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  animation: snowMove 14s linear infinite;
+  animation-delay: 1s;
+}
+.snow5 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 500px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 12s linear infinite;
+}
+.snow6 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -100px;
+  left: 630px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  animation: snowMove 15s linear infinite;
+}
+.snow7 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 730px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 10s linear infinite;
+  animation-delay: 2s;
+}
+.snow8 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 820px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 13s linear infinite;
+}
+.snow9 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -70px;
+  left: 940px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 15s linear infinite;
+  animation-delay: 1s;
+}
+.snow10 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -100px;
+  left: 1100px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  animation: snowMove 10s linear infinite;
+}
+.snow11 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -150px;
+  left: 820px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 13s linear infinite;
+  animation-delay: 4s;
+}
+.snow12 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -230px;
+  left: 380px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  animation: snowMove 14s linear infinite;
+  animation-delay: 4s;
+}
+
+.snow13 {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: -190px;
+  left: 110px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3vw 3vw;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -webkit-animation: snowMove linear infinite;
+  animation: snowMove 15s linear infinite;
+  animation-delay: 4s;
+}
+.snow14 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -210px;
+  left: 500px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 12s linear infinite;
+  animation-delay: 4s;
+}
+.snow15 {
+  width: 3.3vw;
+  height: 3.3vw;
+  position: absolute;
+  top: -200px;
+  left: 940px;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/snow.png);
+  background-size: 3.3vw 3.3vw;
+  animation: snowMove 15s linear infinite;
+  animation-delay: 1s;
+  animation-delay: 4s;
+}
