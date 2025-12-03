@@ -20,8 +20,7 @@ body {
 
 p {
   font-family: "Furnitur";
-  /* font-size: 70px; */
-  font-size: clamp(30px, 4vw, 60px);
+  font-size: clamp(40px, 5vw, 70px);
 }
 
 .firstText,
@@ -34,6 +33,7 @@ p {
 /* буквы */
 .one {
   color: #d80000;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -42,6 +42,7 @@ p {
 }
 .two {
   color: #ffbb00;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -50,6 +51,7 @@ p {
 }
 .three {
   color: #0f13ff;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -58,6 +60,7 @@ p {
 }
 .four {
   color: #eca1ff;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -66,6 +69,7 @@ p {
 }
 .five {
   color: #40c000;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -74,6 +78,7 @@ p {
 }
 .six {
   color: #8b37ff;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -82,6 +87,7 @@ p {
 }
 .seven {
   color: #d80000;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -90,6 +96,7 @@ p {
 }
 .eight {
   color: #eca1ff;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -98,6 +105,7 @@ p {
 }
 .nine {
   color: #ffbb00;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -106,6 +114,7 @@ p {
 }
 .ten {
   color: #0f13ff;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -114,6 +123,7 @@ p {
 }
 .eleven {
   color: #40c000;
+  font-size: clamp(30px, 4vw, 60px);
   width: 3.5vw;
   height: 3vw;
   position: absolute;
@@ -161,7 +171,7 @@ p {
   animation: blink 0.8s step-end infinite;
 }
 
-.snow {
+#snow {
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -173,7 +183,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -70px;
-  left: 0;
+  left: 2vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   -webkit-transform: translate3d(0, -100%, 0);
@@ -188,7 +198,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 100px;
+  left: 6.94vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 12s linear infinite;
@@ -200,7 +210,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 300px;
+  left: 20.83vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 10s linear infinite;
@@ -213,7 +223,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -100px;
-  left: 380px;
+  left: 26.39vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   animation: snowMove 14s linear infinite;
@@ -226,7 +236,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 500px;
+  left: 34.72vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 12s linear infinite;
@@ -238,7 +248,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -100px;
-  left: 630px;
+  left: 43.75vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   animation: snowMove 15s linear infinite;
@@ -250,7 +260,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 730px;
+  left: 50.69vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 10s linear infinite;
@@ -263,7 +273,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 820px;
+  left: 56.94vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 13s linear infinite;
@@ -275,7 +285,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -70px;
-  left: 940px;
+  left: 65.28vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 15s linear infinite;
@@ -288,7 +298,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -100px;
-  left: 1100px;
+  left: 76.39vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   animation: snowMove 10s linear infinite;
@@ -300,7 +310,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -150px;
-  left: 820px;
+  left: 56.94vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 13s linear infinite;
@@ -313,7 +323,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -230px;
-  left: 380px;
+  left: 26.39vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   animation: snowMove 14s linear infinite;
@@ -327,7 +337,7 @@ p {
   height: min(3vw, 40px);
   position: absolute;
   top: -190px;
-  left: 110px;
+  left: 7.64vw;
   background-image: url(../images/snow.png);
   background-size: 3vw 3vw;
   -webkit-transform: translate3d(0, -100%, 0);
@@ -343,7 +353,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -210px;
-  left: 500px;
+  left: 34.72vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 12s linear infinite;
@@ -356,7 +366,7 @@ p {
   height: min(3.3vw, 44px);
   position: absolute;
   top: -200px;
-  left: 940px;
+  left: 65.28vw;
   background-image: url(../images/snow.png);
   background-size: 3.3vw 3.3vw;
   animation: snowMove 15s linear infinite;
