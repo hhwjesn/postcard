@@ -1,17 +1,19 @@
 @keyframes snowMove {
   0% {
-    transform: translateY(0vw);
+    transform: translateY(0);
+    opacity: 1;
   }
   25% {
-    transform: translateY(25vw);
+    transform: translateY(25vh);
   }
   50% {
-    transform: translateY(50vw);
+    transform: translateY(50vh);
   }
   75% {
-    transform: translateY(75vw);
+    transform: translateY(75vh);
   }
   100% {
+    transform: translateY(100vh);
     opacity: 0;
   }
 }
